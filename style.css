@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background-image: radial-gradient(
+    circle,
+    #f56d91,
+    #fa9490,
+    #f8b8a1,
+    #f5d9c4,
+    #f7f5f2
+  );
+}
+
+h1 {
+  color: blueviolet;
+  font-family: "Rampart One", cursive;
+  font-size: 3rem;
+  margin: 3rem;
+}
+
+img {
+  width: 15rem;
+  cursor: pointer;
+  margin: 1rem 2rem;
+  box-shadow: 0.7rem 0.7rem 1rem black;
+  border-radius: 50%;
+}
+img:hover {
+  width: 17rem;
+  margin: 0rem 1rem;
+  box-shadow: 1rem 1rem 1rem black;
+  border-radius: 50%;
+}
+
+img:active {
+  width: 16rem;
+  margin: 0.5rem 1.5rem;
+  box-shadow: none;
+  border-radius: 50%;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Rampart One", cursive;
+  color: #fff;
+  padding-top: 0.5rem;
+  text-shadow: 0.2rem 0.2rem 0.2rem black;
+}
+
+.loser {
+  display: none;
+}
+.score {
+  font-family: "ZCOOL KuaiLe", cursive;
+  /* color: rgb(65, 51, 41); */
+  color: #f7f5f2;
+}
+span {
+  color: #dfdfde;
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: 3rem;
+}
